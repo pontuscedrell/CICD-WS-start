@@ -47,5 +47,5 @@ jobs:
         with:
           app-name: cicd-demo-ws-1337
           slot-name: Production
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.SUPER_SECRET_PASSWORD }}
           package: .
